@@ -1,0 +1,191 @@
+Add (kiwi, 60).
+Probing for the position: 3
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Empty
+3: state = Active Student = (kiwi, 60)
+4: state = Empty
+5: state = Empty
+6: state = Empty
+
+Add (rebecca, 70).
+Probing for the position: 2
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Empty
+5: state = Empty
+6: state = Empty
+
+Add (maine, 80).
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (maine, 80)
+5: state = Empty
+6: state = Empty
+
+Add (david, 90).
+Probing for the position: 4
+Probing for the position: 5
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Add (maine, 100).
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Add unsuccessfully. The hash table contain a student with the same name.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Add (maine, 100).
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Add unsuccessfully. The hash table contain a student with the same name.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Search maine.
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+The score is 80.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Delete kiwi.
+Probing for the position: 3
+Delete successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Deleted
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Search maine.
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+The score is 80.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Deleted
+4: state = Active Student = (maine, 80)
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Delete maine.
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Delete successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Deleted
+4: state = Deleted
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Search maine.
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Probing for the position: 5
+Probing for the position: 6
+Cannot find the student in the hash table.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Deleted
+4: state = Deleted
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Delete maine.
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Probing for the position: 5
+Probing for the position: 6
+Delete unsuccessfully. Cannot find the student in the hash table.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Deleted
+4: state = Deleted
+5: state = Active Student = (david, 90)
+6: state = Empty
+
+Add (maine, 100).
+Probing for the position: 2
+Probing for the position: 3
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (maine, 100)
+4: state = Deleted
+5: state = Active Student = (david, 90)
+6: state = Empty
+

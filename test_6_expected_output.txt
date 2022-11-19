@@ -1,0 +1,335 @@
+Add (kiwi, 60).
+Probing for the position: 0
+Add successfully.
+Current hash table:
+hash_table_size:3
+0: state = Active Student = (kiwi, 60)
+1: state = Empty
+2: state = Empty
+
+Add (rebecca, 70).
+Probing for the position: 0
+Probing for the position: 1
+Add successfully.
+Current hash table:
+hash_table_size:3
+0: state = Active Student = (kiwi, 60)
+1: state = Active Student = (rebecca, 70)
+2: state = Empty
+
+Add (maine, 80).
+Probing for the position: 1
+Probing for the position: 0
+Probing for the position: 2
+Add successfully.
+Current hash table:
+hash_table_size:3
+0: state = Active Student = (kiwi, 60)
+1: state = Active Student = (rebecca, 70)
+2: state = Active Student = (maine, 80)
+
+Add (falco, 90).
+Probing for the position: 2
+Probing for the position: 0
+Probing for the position: 1
+Probing for the position: 3
+Probing for the position: 2
+Probing for the position: 2
+Probing for the position: 6
+Probing for the position: 2
+Probing for the position: 3
+Probing for the position: 4
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Empty
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (falco, 90)
+5: state = Empty
+6: state = Active Student = (maine, 80)
+
+Add (david, 91).
+Probing for the position: 4
+Probing for the position: 2
+Probing for the position: 0
+Add successfully.
+Current hash table:
+hash_table_size:7
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Active Student = (rebecca, 70)
+3: state = Active Student = (kiwi, 60)
+4: state = Active Student = (falco, 90)
+5: state = Empty
+6: state = Active Student = (maine, 80)
+
+Add (lucy, 92).
+Probing for the position: 0
+Probing for the position: 3
+Probing for the position: 6
+Probing for the position: 0
+Probing for the position: 12
+Probing for the position: 8
+Probing for the position: 14
+Probing for the position: 16
+Probing for the position: 14
+Probing for the position: 11
+Add successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Empty
+6: state = Empty
+7: state = Empty
+8: state = Active Student = (kiwi, 60)
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Empty
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Add (dorio, 93).
+Probing for the position: 13
+Add successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Empty
+6: state = Empty
+7: state = Empty
+8: state = Active Student = (kiwi, 60)
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Add (pilar, 94).
+Probing for the position: 0
+Probing for the position: 11
+Probing for the position: 5
+Add successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Active Student = (kiwi, 60)
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Add (pilar, 94).
+Probing for the position: 0
+Probing for the position: 11
+Probing for the position: 5
+Add unsuccessfully. The hash table contain a student with the same name.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Active Student = (kiwi, 60)
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Search maine.
+Probing for the position: 16
+The score is 80.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Active Student = (kiwi, 60)
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Delete kiwi.
+Probing for the position: 8
+Delete successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Search maine.
+Probing for the position: 16
+The score is 80.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 80)
+
+Delete maine.
+Probing for the position: 16
+Delete successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Deleted
+
+Search maine.
+Probing for the position: 16
+Probing for the position: 7
+Cannot find the student in the hash table.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Deleted
+
+Delete maine.
+Probing for the position: 16
+Probing for the position: 7
+Delete unsuccessfully. Cannot find the student in the hash table.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Deleted
+
+Add (maine, 100).
+Probing for the position: 16
+Add successfully.
+Current hash table:
+hash_table_size:17
+0: state = Active Student = (david, 91)
+1: state = Empty
+2: state = Empty
+3: state = Empty
+4: state = Empty
+5: state = Active Student = (pilar, 94)
+6: state = Empty
+7: state = Empty
+8: state = Deleted
+9: state = Empty
+10: state = Empty
+11: state = Active Student = (lucy, 92)
+12: state = Active Student = (rebecca, 70)
+13: state = Active Student = (dorio, 93)
+14: state = Active Student = (falco, 90)
+15: state = Empty
+16: state = Active Student = (maine, 100)
+
